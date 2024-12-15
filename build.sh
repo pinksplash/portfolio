@@ -16,4 +16,7 @@ if [ ! -d site ]; then
 fi
 
 python3 generate.py
+
+cp src/*.css site/
+
 echo "Done!"
