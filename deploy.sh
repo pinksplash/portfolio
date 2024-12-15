@@ -14,6 +14,8 @@ if [[ ! "$answer" =~ ^[Yy] ]]; then
   exit 1
 fi
 
+./build.sh
+
 INITIAL_BRANCH=$(git branch --show-current)
 
 git checkout pages
