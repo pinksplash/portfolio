@@ -21,7 +21,7 @@ INITIAL_BRANCH=$(git branch --show-current)
 git checkout pages
 cp -R site/* .
 git add -A
-git commit
+git commit -m "Deploy new version"
 git push
 git checkout "$INITIAL_BRANCH"
 
