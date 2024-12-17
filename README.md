@@ -12,6 +12,7 @@ Python virtual environment automatically.
 To regenerate the site, run:
 
 ```sh
+cd ~/Documents/portfolio
 ./build.sh
 ```
 

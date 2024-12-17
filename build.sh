@@ -19,4 +19,6 @@ python3 generate.py
 
 cp src/*.css site/
 
+cp -r src/images site/
+
 echo "Done!"
