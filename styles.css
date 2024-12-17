@@ -1,3 +1,80 @@
+body {
+  color: #B11030;
+  background-color: #FFF3DF;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 48px;
+}
+
+button {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.logo {
+  padding-right: 220px;
+}
+
+.social-set {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.social-icon {
+  width: 16px;
+}
+
+
+/* HOMEPAGE */
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+}
+
 h1 {
-  color: red;
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  margin: 0;
+}
+
+.h1-italic {
+  font-style: italic;
+  font-size: 80px;
+}
+
+p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 0;
 }
