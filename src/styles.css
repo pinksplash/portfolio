@@ -200,6 +200,87 @@ p {
 
 /**/
 /**/
+/* HOMEPAGE - CASE STUDIES */
+
+.case-studies {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-top: 200px;
+}
+
+.case-study-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.case-studies img {
+  width: 50%;
+}
+
+.case-study-content {
+  padding: 100px;
+}
+
+.lavender-bg {
+  background-color: #DBB8E2;
+}
+
+.salmon-bg {
+  background-color: #FEB4AA;
+}
+
+.cherry-bg {
+  background-color: #B11030;
+}
+
+.blue-bg {
+  background-color: #0565B4;
+}
+.bubblegum-bg {
+  background-color: #FDB8F1;
+}
+
+.case-study-title {
+  color: #FFF3DF;
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 64px;
+  line-height: 64px;
+  padding-bottom: 32px;
+}
+
+.case-study-subtitle {
+  color: #FFF3DF;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 36px;
+  padding-bottom: 48px;
+}
+
+.btn-pink {
+  background-color: #FDB8F1;
+  color: #B11030;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  box-shadow: 0 6px #FF3AA0;
+  border-radius: 500px;
+  height: 48px;
+  padding: 0 24px 2px;
+  border: none;
+}
+
+
+/**/
+/**/
 /* FOOTER */
 
 footer {
