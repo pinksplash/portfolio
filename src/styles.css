@@ -5,8 +5,11 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin: 0 auto;
 }
 
+/**/
+/**/
 /* HEADER */
 
 header {
@@ -30,6 +33,19 @@ button {
   gap: 32px;
 }
 
+header a {
+  color: #B11030;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #B11030;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+  text-decoration-color: #FF3AA0;
+}
+
 .logo {
   padding-right: 220px;
 }
@@ -37,6 +53,7 @@ button {
 .social-set {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 24px;
 }
 
@@ -44,8 +61,51 @@ button {
   width: 16px;
 }
 
-
+/**/
+/**/
 /* HOMEPAGE */
+
+.hero {
+  height: 488px;
+  position: relative;
+  margin: 0 100px;
+}
+
+.tulip {
+  position: absolute;
+  left: 0;
+  top: 58%;
+}
+
+.flower {
+  position: absolute;
+  left: 5%;
+  top: 24.5%;
+}
+
+.diamond-orange {
+  position: absolute;
+  left: 14%;
+  top: 53%;
+}
+
+.diamond-blue {
+  position: absolute;
+  right: 12%;
+  top: 22.5%;
+}
+
+.semi-circle {
+  position: absolute;
+  right: 7%;
+  top: 54%;
+}
+
+.star {
+  position: absolute;
+  right: 0px;
+  top: 31%;
+}
 
 .title {
   display: flex;
@@ -77,4 +137,122 @@ p {
   font-size: 24px;
   line-height: 40px;
   margin: 0;
+}
+
+.description p {
+  margin: 0 0 40px 0;
+}
+
+.description-images-container {
+  height: 728px;
+  position: relative;
+  margin: 0 100px;
+}
+
+.description {
+  width: 37%;
+}
+
+.stylescape {
+  position: absolute;
+  left: 49%;
+  top: 0;
+  width: 304px;
+  height: 229px;
+}
+
+.crochet-carlos {
+  position: absolute;
+  right: 0;
+  top: 15%;
+  width: 200px;
+  height: 242px;
+}
+
+.duck {
+  position: absolute;
+  left: 8%;
+  bottom: 4%;
+  width: 200px;
+  height: 200px;
+}
+
+.ordermentum {
+  position: absolute;
+  left: 33%;
+  bottom: 22%;
+  width: 240px;
+  height: 180px;
+}
+
+.crochet-mate {
+  position: absolute;
+  right: 17%;
+  bottom: 0;
+  width: 260px;
+  height: 260px;
+}
+
+/**/
+/**/
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 88px 100px;
+}
+
+.copyright {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 16px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+footer a {
+  color: #B11030;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #B11030;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+  text-decoration-color: #FF3AA0;
+}
+
+.email-title {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.email {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 4px;
+}
+
+footer .social-set {
+  padding-top: 16px;
+}
+
+.social-title {
+  font-size: 20px;
+  line-height: 36px;
 }
