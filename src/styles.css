@@ -333,6 +333,155 @@ button {
   transform: translateY(4px);
 }
 
+/**/
+/**/
+/* CASE STUDY TEMPLATE */
+
+.cs-main {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 120px 100px;
+}
+
+.cs-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.cs-intro {
+  width: 66%;
+  padding-left: 105px;
+}
+
+.cs-h1 {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 52px;
+  padding-bottom: 40px;
+  color: #FD0944;
+}
+
+.rhs-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.label-value a {
+  color: #B11030;
+  text-decoration: none;
+}
+
+.label-value a:hover {
+  color: #B11030;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 2px;
+  text-decoration-color: #FF3AA0;
+}
+
+.label {
+  color: #666666;
+}
+
+.value {
+  color: #1A1A1A;
+}
+
+.cs-paragraph {
+  font-size: 18px;
+  line-height: 32px;
+  color: #1A1A1A;
+  padding-bottom: 32px;
+}
+
+.hero-img {
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.cs-content-with-margins {
+  margin: 0 105px;
+}
+
+.cs-h2 {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 48px;
+  padding: 48px 0 8px;
+  margin: 0;
+  color: #FD0944;
+}
+
+.p-66 {
+  width: 66%;
+}
+
+ul {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+li {
+  padding-top: 8px;
+}
+
+.li-first {
+  padding: 0;
+}
+
+.credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 48px;
+  border-top: 1px solid #FEB4AA;
+  padding-top: 24px;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 18%;
+}
+
+.collab {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 69%;
+}
+
+.credits-label {
+  color: #1A1A1A;
+}
+
+.credits-value {
+  color: #666666;
+}
 
 /**/
 /**/
