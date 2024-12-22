@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #B11030;
   background-color: #FFF3DF;
@@ -9,7 +13,7 @@ body {
 }
 
 main {
-  max-width: 1420px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -206,7 +210,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0;
-  padding-top: 200px;
+  margin-top: 200px;
 }
 
 .case-study-row {
@@ -243,7 +247,6 @@ p {
 }
 
 .case-study-title {
-  color: #FFF3DF;
   font-family: "Cormorant", serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -254,7 +257,6 @@ p {
 }
 
 .case-study-subtitle {
-  color: #FFF3DF;
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -264,18 +266,71 @@ p {
   padding-bottom: 48px;
 }
 
-.btn-pink {
-  background-color: #FDB8F1;
-  color: #B11030;
+.text-black {
+  color: #1A1A1A;
+}
+
+.text-cream {
+  color: #FFF3DF;
+}
+
+button {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  box-shadow: 0 6px #FF3AA0;
   border-radius: 500px;
   height: 48px;
   padding: 0 24px 2px;
   border: none;
+}
+
+.btn-green {
+  background-color: #E0E032;
+  color: #1A1A1A;
+  box-shadow: 0 6px #BD9500;
+}
+
+.btn-green:hover {
+  box-shadow: 0 4px #BD9500;
+  transform: translateY(2px);
+}
+
+.btn-green:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.btn-red {
+  background-color: #FD0944;
+  color: #FFF3DF;
+  box-shadow: 0 6px #B11030;
+}
+
+.btn-red:hover {
+  box-shadow: 0 4px #B11030;
+  transform: translateY(2px);
+}
+
+.btn-red:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.btn-pink {
+  background-color: #FDB8F1;
+  color: #B11030;
+  box-shadow: 0 6px #FF3AA0;
+}
+
+.btn-pink:hover {
+  box-shadow: 0 4px #FF3AA0;
+  transform: translateY(2px);
+}
+
+.btn-pink:active {
+  box-shadow: none;
+  transform: translateY(4px);
 }
 
 
