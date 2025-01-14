@@ -363,7 +363,14 @@ button {
   font-size: 36px;
   line-height: 52px;
   padding-bottom: 40px;
+}
+
+.title-red {
   color: #FD0944;
+}
+
+.title-orange {
+  color: #FF5C02;
 }
 
 .rhs-details {
@@ -414,7 +421,13 @@ button {
 .mid-img {
   width: 100%;
   margin: 48px 0 16px;
-  border: 4px solid #FFFFFF;
+  /*border: 4px solid #FFFFFF;*/
+}
+
+.mid-img-no-caption {
+  width: 100%;
+  margin: 48px 0;
+  /*border: 4px solid #FFFFFF;*/
 }
 
 .caption {
@@ -445,11 +458,14 @@ button {
   line-height: 48px;
   padding: 48px 0 8px;
   margin: 0;
-  color: #FD0944;
 }
 
 .p-80 {
   width: 80%;
+}
+
+.p-below-img-no-caption {
+  padding-top: 32px;
 }
 
 .p-below-caption {
@@ -469,6 +485,39 @@ li {
 
 .li-first {
   padding: 0;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.quote-text {
+  width: 70%;
+}
+
+.quote-title {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 60px;
+  padding-bottom: 24px;
+  color: #1A1A1A;
+}
+
+.quote-label {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 .credits {
