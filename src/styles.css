@@ -373,6 +373,10 @@ button {
   color: #FF5C02;
 }
 
+.title-blue {
+  color: #0565B4;
+}
+
 .rhs-details {
   display: flex;
   flex-direction: column;
