@@ -430,6 +430,10 @@ button {
   /*border: 4px solid #FFFFFF;*/
 }
 
+.img-above-p {
+  margin-bottom: 80px;
+}
+
 .caption {
   display: flex;
   flex-direction: row;
@@ -443,6 +447,10 @@ button {
   line-height: 24px;
   color: #666666;
   padding-bottom: 32px;
+}
+
+.img-caption-above-p {
+  padding-bottom: 80px;
 }
 
 .cs-content-with-margins {
