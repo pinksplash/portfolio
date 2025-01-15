@@ -7,7 +7,7 @@ body {
   background-color: #FFF3DF;
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
   margin: 0;
 }
@@ -383,7 +383,7 @@ button {
   gap: 16px;
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
@@ -445,7 +445,7 @@ button {
   align-items: flex-start;
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 350;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
@@ -464,7 +464,7 @@ button {
 .cs-h2 {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
   font-size: 24px;
   line-height: 48px;
@@ -526,7 +526,7 @@ li {
 .quote-label {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
   font-size: 12px;
   line-height: 24px;
