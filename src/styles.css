@@ -171,42 +171,76 @@ p {
   width: 37%;
 }
 
-.stylescape {
+.img-hover-zoom {
+  display: inline-block;
+  overflow: hidden;
   position: absolute;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+.zoom-stylescape {
   left: 49%;
   top: 0;
   width: 304px;
   height: 229px;
 }
 
-.crochet-carlos {
-  position: absolute;
+.stylescape {
+  width: 304px;
+  height: 229px;
+}
+
+.zoom-carlos {
   right: 0;
   top: 15%;
   width: 200px;
   height: 242px;
 }
 
-.duck {
-  position: absolute;
+.crochet-carlos {
+  width: 200px;
+  height: 242px;
+}
+
+.zoom-duck {
   left: 8%;
   bottom: 4%;
   width: 200px;
   height: 200px;
 }
 
-.ordermentum {
-  position: absolute;
+.duck {
+  width: 200px;
+  height: 200px;
+}
+
+.zoom-ordermentum {
   left: 33%;
   bottom: 22%;
   width: 240px;
   height: 180px;
 }
 
-.crochet-mate {
-  position: absolute;
+.ordermentum {
+  width: 240px;
+  height: 180px;
+}
+
+.zoom-crochet-mate {
   right: 17%;
   bottom: 0;
+  width: 260px;
+  height: 260px;
+}
+
+.crochet-mate {
   width: 260px;
   height: 260px;
 }
